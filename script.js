@@ -37,7 +37,7 @@ function getElement(selection) {
       return element;
     }
     throw new Error(
-      `Controlla "${selection}" il selettore, non esiste quel elemento`
+      `Controlla il selettore "${selection}", non esiste quel elemento`
     );
   }
 
